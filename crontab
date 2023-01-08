@@ -1,0 +1,4 @@
+# Setting the backup schedule
+
+0 */3 * * * /srv/minecraft/backup.sh      # every 3 hours local backup
+15 0 * * * /srv/minecraft/backup.sh cloud # daily cloud backup
